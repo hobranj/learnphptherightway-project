@@ -26,4 +26,4 @@ echo nl2br("\n\n");
 */
 require_once(APP_PATH.'App.php');
 
-read_transactions();
+prettyPrintArray(read_transactions());
